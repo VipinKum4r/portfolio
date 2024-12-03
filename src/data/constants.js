@@ -1,3 +1,10 @@
+
+import discord_bot_thumbnail from '../images/discord_bot_thumbnail.jpg'
+import spendwise_thumbnail from '../images/spendwise_thumbnail.jpg' 
+import progresspal_thumbnail from '../images/progresspal_thumbnail.jpg'
+import kpit_certificate from '../images/kpit_certificate.jpg'
+
+
 export const Bio = {
     name: "Vipin Kumar",
     roles: ["Python Developer", "Learner"],
@@ -208,7 +215,7 @@ export const Bio = {
       date: "Dec 2023 - Dec 2024",
       desc: "Mastered C++14 and C++17 concepts, including advanced modern C++ techniques, with hands on experience in Multithreading Embedded Systems, and Socket Programming. Acquired Practical knowledge in Agile & Scrum methodologies, Version Control System with Git and GitHub, and Unified Modelling Language (UML) for efficient project management.",
       skills: ["C", "C++", "OpenCV", "CMake", "GTest"],
-      doc: "images/kpit_certificate.jpg",
+      doc:kpit_certificate,
     },
   ];
   
@@ -218,7 +225,7 @@ export const Bio = {
       img: "https://www.cgc.ac.in/public/course/assets/images/header-footer/cgc-jhanjeri-logo-white.png",
       school: "Chandigarh group of colleges, Jhanjeri",
       date: "June 2020 - June 2024",
-      grade: "8.41 CGPA",
+      grade: "7.80 CGPA",
       desc: "I completed my Bachelor's degree in Computer Science and Engineering at Chandigarh Engineering College, Jhanjeri. I have completed 8 semesters and have a CGPA of 7.80. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
@@ -226,8 +233,8 @@ export const Bio = {
       id: 1,
       img: "https://imgs.search.brave.com/zymk66ds1xEO-r_uw2P7mZmsmS6BaB0v8Qg8Dc0mpZs/rs:fit:860:0:0:0/g:ce/aHR0cDovL3NjaG9v/bHMudGhlbGVhcm5p/bmdwb2ludC5uZXQv/cGljcy1jYnNlL3Nj/aG9vbFBpYzA0NjYx/LkpQRw",
       school: "Netaji Model School, Ropar",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
+      date: "Apr 2019 - Apr 2020",
+      grade: "69%",
       desc: "I completed my class 12 high school education at Netaji Model School, Ropar, where I studied Science with Maths.",
       degree: "CBSE(XII), Non Medical",
     },
@@ -235,8 +242,8 @@ export const Bio = {
       id: 2,
       img: "https://hfcsropar.in/assets/images/LOGO.png",
       school: "Holy Family Convent School, Ropar",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
+      date: "Apr 2017 - Apr 2018",
+      grade: "84.6%",
       desc: "I completed my class 10 education at Holy Family Convent School, Ropar, where I studied Science with Computer Application.",
       degree: "ICSE(X), Science with Computer Application",
     },
@@ -244,12 +251,12 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 11,
+      id: 0,
       title: "SpendWise",
       date: "Sept 2024 - Nov 2024",
       description:
         "A sleek finance tracker web app that allows users to securely manage and track their income, expenses, assets, and investments. It offers a user-friendly interface and responsive design for effective financial management.",
-      image:"images/spendwise_thumbnail.jpg",
+      image:spendwise_thumbnail,
       tags: [
         "Flask",
         "HTML",
@@ -263,13 +270,12 @@ export const Bio = {
       webapp: "https://decisionhub.netlify.app/",
     },
     {
-      id: 9,
+      id: 1,
       title: "Discord bot",
-      date: "Jun 2023 - Jul 2023",
+      date: "Oct 2024 - Dec 2024",
       description:
         "This project is a Critical Ops Discord Bot designed to fetch and display player statistics for the game Critical Ops. Using the discord.py library, the bot allows users to retrieve in-depth stats by entering commands like !stats <username>. It connects to the game's public API to gather information such as player rank, kills, deaths, wins, losses, and other performance metrics for a specific season. This bot aims to enhance the gaming experience by providing an intuitive way for players to track their performance and share stats in their Discord community.",
-      image:
-        "/images/discord_bot_thumbnail.jpg",
+      image:discord_bot_thumbnail,
       tags: [
         "Flask",
         "discord.py",
@@ -277,37 +283,15 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/VipinKum4r/Critical-ops-discord-bot",
-      webapp: "https://trackify-management.netlify.app/",
+      webapp: "https://discord.gg/4Y7vHdxCek",
     },
     {
-      id: 0,
-      title: "Fit Freak",
-      date: "Apr 2023 - May 2023",
-      description:
-        "hbjbjhb",
-      image:
-        "/images/progresspal_thumbnail.jpg",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-      category: "web app",
-      github: "https://github.com/VipinKum4r/FitFreak",
-      webapp: "https://vipinkum4r.netlify.app/",
-      member: [
-        {
-          name: "Vipin Kumar",
-          img: "images/HeroImage.jpg",
-          linkedin: "https://www.linkedin.com/in/vipinkum4r/",
-          github: "https://github.com/vipinkum4r/",
-        },
-      ],
-    },
-    {
-      id: 1,
+      id: 2,
       title: "ProgressPal",
       date: "Nov 2024 - Dec 2024",
       description:
-        "wsdfhgjkl",
-      image:
-        "images/progresspal_thumbnail.jpg",
+        "ProgressPal is a web app for tracking fitness and lifestyle goals, featuring user authentication, habit/workout tracking. Built with Django, MySQL, and a responsive frontend.",
+      image:progresspal_thumbnail,
       tags: [
         "HTML",
         "CSS",
