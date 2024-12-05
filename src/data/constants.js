@@ -283,7 +283,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/VipinKum4r/Critical-ops-discord-bot",
-      webapp: "https://discord.gg/4Y7vHdxCek",
+      webapp: discord_bot_thumbnail,
     },
     {
       id: 2,
