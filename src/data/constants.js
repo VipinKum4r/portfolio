@@ -267,7 +267,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/VipinKum4r/Spend-Wise",
-      webapp: "https://decisionhub.netlify.app/",
+      webapp: "https://youtu.be/X2Fc5-c2SBU",
     },
     {
       id: 1,
@@ -302,7 +302,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/VipinKum4r/ProgressPal",
-      webapp: "https://vipinkum4r.netlify.app/",
+      webapp: "https://youtu.be/fucR8H75BLQ",
     },
   ];
   
