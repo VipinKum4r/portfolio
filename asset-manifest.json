@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.7b213946.js",
+    "main.js": "/portfolio/static/js/main.f4fd4d1d.js",
     "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/discord_bot_thumbnail.jpg": "/portfolio/static/media/discord_bot_thumbnail.ce285a5f1132babcff13.jpg",
     "static/media/HeroImage.jpg": "/portfolio/static/media/HeroImage.c6b9555f9799d32a77dc.jpg",
     "static/media/kpit_certificate.jpg": "/portfolio/static/media/kpit_certificate.b6c4c3fbea822dcfd656.jpg",
     "static/media/spendwise_thumbnail.jpg": "/portfolio/static/media/spendwise_thumbnail.cde49c337a7b6592fddf.jpg",
+    "static/media/holy-family-logo.png": "/portfolio/static/media/holy-family-logo.5f37042c01ac07f30ba1.png",
     "static/media/progresspal_thumbnail.jpg": "/portfolio/static/media/progresspal_thumbnail.8d0e2ea885f800b071d0.jpg",
+    "static/media/netaji-logo.jpg": "/portfolio/static/media/netaji-logo.a5d5337343f1194ac3c6.jpg",
+    "static/media/cgc-logo.webp": "/portfolio/static/media/cgc-logo.99bcbab89dc91b8b31fd.webp",
+    "static/media/eventloop-card.svg": "/portfolio/static/media/eventloop-card.20a957a0badf16893dbea5b3067024ed.svg",
+    "static/media/bitmask-card.svg": "/portfolio/static/media/bitmask-card.1716008790ea687324b33ca8f8efd43f.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/bluetooth-icon.svg": "/portfolio/static/media/bluetooth-icon.692426cb04909d6963bc6fa44e46d41f.svg",
     "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.7b213946.js.map": "/portfolio/static/js/main.7b213946.js.map",
+    "main.f4fd4d1d.js.map": "/portfolio/static/js/main.f4fd4d1d.js.map",
     "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7b213946.js"
+    "static/js/main.f4fd4d1d.js"
   ]
 }
