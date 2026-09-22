@@ -7,16 +7,12 @@ import kpit_certificate from '../images/kpit_certificate.jpg'
 
 export const Bio = {
     name: "Vipin Kumar",
-    roles: ["Python Developer", "Learner"],
+    roles: ["Software Engineer", "C++ Developer", "Embedded Systems Engineer"],
     description:
-      "Highly motivated and adaptable individual with a passion for learning and delivering high-quality results. With a growth mindset and positive attitude aiming to make a meaningful impact.",
-    github: "https://github.com/vipinkum4r",
-    resume:
-      "https://drive.google.com/file/d/17uuqjUCp1qGmVDTRM2q5cq6LYdF7tBWr/view?usp=drive_link",
+      "Software Engineer building production C++ software for automotive infotainment (IVI) systems \u2014 Bluetooth connectivity stacks and AOSP-based application features, shipped to production for OEM clients.",
+    github: "https://github.com/VipinKum4r",
+    resume: `${process.env.PUBLIC_URL}/resume.pdf`,
     linkedin: "https://www.linkedin.com/in/vipinkum4r/",
-    twitter: "https://twitter.com/VipinKum4r",
-    insta: "https://www.instagram.com/vipinkum4r/",
-    facebook: "https://www.facebook.com/vipinkum4r/",
   };
   
   export const skills = [
@@ -24,183 +20,76 @@ export const Bio = {
       title: "Programming Languages",
       skills: [
         {
-          name: "Python",
-          image: "https://pluspng.com/img-png/python-logo-png-open-2000.png",
-        },
-        {
           name: "C++",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
         },
         {
           name: "C",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
         },
         {
-          name: "JavaScript",
+          name: "Java",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+        {
+          name: "Python",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
       ],
     },
     {
-      title: "Web Development",
+      title: "Embedded, Bluetooth & Linux",
       skills: [
         {
-          name: "HTML",
+          name: "Linux",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
         },
         {
-          name: "CSS",
+          name: "AOSP / Android",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg",
         },
         {
-          name: "JavaScript",
+          name: "Bluetooth (HFP, PBAP, MAP, BLE)",
+          image: "https://upload.wikimedia.org/wikipedia/commons/2/24/Bluetooth.svg",
+        },
+      ],
+    },
+    {
+      title: "Testing & Build Tools",
+      skills: [
+        {
+          name: "Google Test (GTest)",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
         },
         {
-          name: "Flask",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
-        },
-        {
-          name: "React.js",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          name: "CMake",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cmake/cmake-original.svg",
         },
         {
           name: "Docker",
           image:
-            "https://imgs.search.brave.com/8OJQy0Ev0C3qDA0Sh53na4AIAQsrpwccKg7Zkn8Z8_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9kb2NrZXItaWNv/bi5zdmc",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
         },
-      ],
-    },
-    {
-      title: "Frameworks & Libraries",
-      skills: [
-        {
-          name: "React.js",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-        },
-        {
-          name: "TensorFlow",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
-        },
-        {
-          name: "PyTorch",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png",
-        },
-      ],
-    },
-    {
-      title: "DevOps & Tools",
-      skills: [
         {
           name: "Git",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
         },
         {
           name: "GitHub Actions",
           image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg",
         },
         {
-          name: "Docker",
+          name: "Shell Scripting",
           image:
-            "https://imgs.search.brave.com/8OJQy0Ev0C3qDA0Sh53na4AIAQsrpwccKg7Zkn8Z8_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9kb2NrZXItaWNv/bi5zdmc",
-        },
-        {
-          name: "CMake",
-          image: "https://imgs.search.brave.com/IkrmtrXXuKl1DytrRuRmnPKamlNx8OFJhZYqmzA1Usg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8xLzEzL0Nt/YWtlLnN2Zy82NDBw/eC1DbWFrZS5zdmcu/cG5n",
-        },
-      ],
-    },
-    {
-      title: "Databases",
-      skills: [
-        {
-          name: "MySQL",
-          image:
-            "https://imgs.search.brave.com/gPgWl35AC6IsxLA8mGttOZExyxv_Qgd_ttjr7YULhRs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzBhL015/U1FMX3RleHRsb2dv/LnN2Zy8yMjBweC1N/eVNRTF90ZXh0bG9n/by5zdmcucG5n",
-        },
-        {
-          name: "SQLite",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
-        },
-        {
-          name: "PostgreSQL",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-        },
-      ],
-    },
-    {
-      title: "Problem Solving & Algorithms",
-      skills: [
-        {
-          name: "Data Structures",
-          image: "https://cdn-icons-png.flaticon.com/512/906/906324.png",
-        },
-        {
-          name: "Algorithms",
-          image: "https://cdn-icons-png.flaticon.com/512/2952/2952665.png",
-        },
-        {
-          name: "LeetCode",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
-        },
-      ],
-    },
-    {
-      title: "AI & Machine Learning",
-      skills: [
-        {
-          name: "TensorFlow",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
-        },
-        {
-          name: "PyTorch",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png",
-        },
-        {
-          name: "NLP",
-          image: "https://cdn-icons-png.flaticon.com/512/9831/9831299.png",
-        },
-        {
-          name: "Generative AI",
-          image: "https://cdn-icons-png.flaticon.com/512/2869/2869002.png",
-        },
-      ],
-    },
-    {
-      title: "Other Tools",
-      skills: [
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
-        },
-        {
-          name: "Postman",
-          image:
-            "https://imgs.search.brave.com/n37EvE6OiYRNvRpuU8RROHO968GigItGitZZFVWtB6k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9jL2MyL1Bv/c3RtYW5fJTI4c29m/dHdhcmUlMjkucG5n/LzUxMnB4LVBvc3Rt/YW5fJTI4c29mdHdh/cmUlMjkucG5n",
-        },
-        {
-          name: "Google Test (GTest)",
-          image:
-            "https://imgs.search.brave.com/DuVDJPTh429vNIrV6u1Y2XzjIJGUGGCdJQ2fzvrCtT0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL0NP/eGl0cWdKcjFzSm5J/RGU4LWppS2h4RHgx/RnJZYnRSSEtKOXpf/aEVMaXNBbGFwd0U5/TFVQaDZmY1hJZmI1/dndwYk1sNHhsOUg5/VFJGUGM1Tk9POFNi/M1ZTZ0lCcmZSWXZX/NmNVQQ",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
         },
       ],
     },
@@ -210,12 +99,30 @@ export const Bio = {
     {
       id: 0,
       img: "https://imgs.search.brave.com/Z23X-2QNXOT6ycYxZZ2INyXqtBQ6mGw9qG17D4SX8tk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dC5icmFuZGZldGNo/LmlvL2lkM2k3d0sz/UzYvaWRqWDkwRDkt/US5wbmc_dXBkYXRl/ZD0xNzE3MDQxMjk0/ODY0",
-      role: "Associate Software Developer Intern",
-      company: "KPIT",
-      date: "Dec 2023 - Dec 2024",
-      desc: "Mastered C++14 and C++17 concepts, including advanced modern C++ techniques, with hands on experience in Multithreading Embedded Systems, and Socket Programming. Acquired Practical knowledge in Agile & Scrum methodologies, Version Control System with Git and GitHub, and Unified Modelling Language (UML) for efficient project management.",
-      skills: ["C", "C++", "OpenCV", "CMake", "GTest"],
-      doc:kpit_certificate,
+      role: "Engineer",
+      company: "KPIT Technologies",
+      date: "Feb 2026 - Present",
+      desc: "Solely designed and implemented a reverse-camera parking-guidance overlay feature at the application layer on a TCC805x-based AOSP infotainment platform, shipped to production for an OEM client. Independently triaged and resolved ~20 Bluetooth defects (connection drops, pairing, audio routing, HFP/PBAP) within a 15-engineer cross-functional team.",
+      skills: ["C++", "AOSP", "Android", "Bluetooth", "Linux"],
+    },
+    {
+      id: 1,
+      img: "https://imgs.search.brave.com/Z23X-2QNXOT6ycYxZZ2INyXqtBQ6mGw9qG17D4SX8tk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dC5icmFuZGZldGNo/LmlvL2lkM2k3d0sz/UzYvaWRqWDkwRDkt/US5wbmc_dXBkYXRlZD0xNzE3MDQxMjk0/ODY0",
+      role: "Associate Engineer",
+      company: "KPIT Technologies",
+      date: "Feb 2025 - Jan 2026",
+      desc: "Designed and developed reusable C++ modules for core Bluetooth connectivity profiles (HFP, PBAP, MAP, BLE) within an automotive IVI head unit, collaborating directly with OEM clients. Performed root cause analysis and resolved critical defects via HCI and Bluetooth sniffer log analysis. Authored GTest unit tests covering 10+ multithreaded/embedded components. Automated a Linux-based build/deploy/file-transfer pipeline (Docker + shell scripting), cutting a 5-step manual process to one command.",
+      skills: ["C++14/17", "Bluetooth", "GTest", "CMake", "Docker", "Linux"],
+      doc: kpit_certificate,
+    },
+    {
+      id: 2,
+      img: "https://imgs.search.brave.com/Z23X-2QNXOT6ycYxZZ2INyXqtBQ6mGw9qG17D4SX8tk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dC5icmFuZGZldGNo/LmlvL2lkM2k3d0sz/UzYvaWRqWDkwRDkt/US5wbmc_dXBkYXRlZD0xNzE3MDQxMjk0/ODY0",
+      role: "Trainee",
+      company: "KPIT Technologies",
+      date: "Dec 2023 - Jan 2025",
+      desc: "Ramped up on modern C++ (C++14/17), multithreaded and embedded systems, socket programming, and Agile/Scrum and Git-based workflows. Converted to full-time Associate Engineer based on performance.",
+      skills: ["C++", "C", "Multithreading", "Git", "Agile/Scrum"],
     },
   ];
   
@@ -223,11 +130,11 @@ export const Bio = {
     {
       id: 0,
       img: "https://www.cgc.ac.in/public/course/assets/images/header-footer/cgc-jhanjeri-logo-white.png",
-      school: "Chandigarh group of colleges, Jhanjeri",
-      date: "June 2020 - June 2024",
+      school: "Chandigarh Group of Colleges, Jhanjeri",
+      date: "June 2020 - August 2024",
       grade: "7.80 CGPA",
-      desc: "I completed my Bachelor's degree in Computer Science and Engineering at Chandigarh Engineering College, Jhanjeri. I have completed 8 semesters and have a CGPA of 7.80. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      desc: "Bachelor's degree in Computer Science, with a specialization in Artificial Intelligence & Machine Learning, at Chandigarh Group of Colleges, Jhanjeri. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
+      degree: "Bachelor of Technology - BTech, Computer Science (Specialization: AI & ML)",
     },
     {
       id: 1,
@@ -252,6 +159,28 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "EventLoop — GTest Coverage",
+      date: "Open Source Contribution",
+      description:
+        "Added GTest unit test coverage from scratch to a C++17 object-oriented event loop library for Linux, improving coverage from 0% to 88.6% (functions) / lines, with CMake restructuring and Windows/MSVC cross-platform support.",
+      image: "https://opengraph.githubassets.com/1/VipinKum4r/EventLoop",
+      tags: ["C++17", "GTest", "CMake", "lcov", "OpenCppCoverage"],
+      category: "systems",
+      github: "https://github.com/VipinKum4r/EventLoop",
+    },
+    {
+      id: 1,
+      title: "Bitmask — Secure File Sharing",
+      date: "Open Source Contribution",
+      description:
+        "Contributed Windows portability to a hybrid-encryption (RSA-2048 + AES-256) secure file-sharing and communication tool, extending compatibility beyond the existing Linux/Mac support baseline.",
+      image: "https://opengraph.githubassets.com/1/VipinKum4r/Bitmask",
+      tags: ["Python", "OpenSSL", "PKI"],
+      category: "systems",
+      github: "https://github.com/VipinKum4r/Bitmask",
+    },
+    {
+      id: 2,
       title: "SpendWise",
       date: "Sept 2024 - Nov 2024",
       description:
@@ -270,7 +199,7 @@ export const Bio = {
       webapp: "https://youtu.be/X2Fc5-c2SBU",
     },
     {
-      id: 1,
+      id: 3,
       title: "Discord bot",
       date: "Oct 2024 - Dec 2024",
       description:
@@ -286,7 +215,7 @@ export const Bio = {
       webapp: discord_bot_thumbnail,
     },
     {
-      id: 2,
+      id: 4,
       title: "ProgressPal",
       date: "Nov 2024 - Dec 2024",
       description:
@@ -308,9 +237,8 @@ export const Bio = {
   
   export const TimeLineData = [
     { year: 2020, text: "Started my coding journey" },
-    { year: 2021, text: "Second year of coding" },
-    { year: 2022, text: "Third year of coding" },
-    { year: 2023, text: "Joined internship" },
-    { year: 2024, text: "Waiting for fulltime" },
+    { year: 2023, text: "Joined KPIT Technologies as a Graduate Engineering Trainee" },
+    { year: 2025, text: "Converted to full-time Associate Engineer" },
+    { year: 2026, text: "Promoted to Engineer" },
   ];
   
