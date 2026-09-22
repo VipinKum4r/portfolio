@@ -3,7 +3,6 @@ import spendwise_thumbnail from '../images/spendwise_thumbnail.jpg'
 import progresspal_thumbnail from '../images/progresspal_thumbnail.jpg'
 import kpit_certificate from '../images/kpit_certificate.jpg'
 
-// Self-hosted assets for layout resilience
 import eventloop_card from '../images/eventloop-card.svg'
 import bitmask_card from '../images/bitmask-card.svg'
 import bluetooth_icon from '../images/bluetooth-icon.svg'
@@ -120,7 +119,6 @@ export const experiences = [
     date: "Feb 2025 - Jan 2026",
     desc: "Designed and developed reusable C++ modules for core Bluetooth connectivity profiles (HFP, PBAP, MAP, BLE) within an automotive IVI head unit, collaborating directly with OEM clients. Performed root cause analysis and resolved critical defects via HCI and Bluetooth sniffer log analysis. Authored GTest unit tests covering 10+ multithreaded/embedded components. Automated a Linux-based build/deploy/file-transfer pipeline (Docker + shell scripting), cutting a 5-step manual process to one command.",
     skills: ["C++14/17", "Bluetooth", "GTest", "CMake", "Docker", "Linux"],
-    doc: kpit_certificate,
   },
   {
     id: 2,
@@ -130,6 +128,7 @@ export const experiences = [
     date: "Dec 2023 - Jan 2025",
     desc: "Ramped up on modern C++ (C++14/17), multithreaded and embedded systems, socket programming, and Agile/Scrum and Git-based workflows. Converted to full-time Associate Engineer based on performance.",
     skills: ["C++", "C", "Multithreading", "Git", "Agile/Scrum"],
+    doc: kpit_certificate,
   },
 ];
 
