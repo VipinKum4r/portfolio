@@ -136,10 +136,10 @@ export const education = [
   {
     id: 0,
     img: cgc_logo,
-    school: "Chandigarh Group of Colleges, Jhanjeri",
+    school: "Chandigarh Engineering College, Chandigarh",
     date: "June 2020 - August 2024",
     grade: "7.80 CGPA",
-    desc: "Bachelor's degree in Computer Science, with a specialization in Artificial Intelligence & Machine Learning, at Chandigarh Group of Colleges, Jhanjeri. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
+    desc: "Bachelor's degree in Computer Science, with a specialization in Artificial Intelligence & Machine Learning, at Chandigarh Engineering College, Chandigarh. Coursework included Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
     degree: "Bachelor of Technology - BTech, Computer Science (Specialization: AI & ML)",
   },
   {
